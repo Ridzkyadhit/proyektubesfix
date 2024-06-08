@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4285f4;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Kelas Container */
+.kelas-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #4285f4;
+    margin-bottom: 15px;
+}
+
+/* Section Styles */
+h3 {
+    color: #555;
+    margin-top: 30px; /* Tambahkan margin atas untuk memisahkan section */
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3367d6;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee; /* Tambahkan garis pemisah antar item */
+    padding-bottom: 10px;
+}
+
+li a {
+    color: #333;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Tugas dan Materi Styles */
+.tugas-item, .materi-item {
+    display: flex; /* Gunakan flexbox untuk tata letak */
+    align-items: center; /* Sejajarkan item secara vertikal */
+    margin-bottom: 15px;
+}
+
+.tugas-item .deadline, .materi-item .file-type {
+    margin-left: auto; /* Dorong elemen ke kanan */
+    font-size: 14px;
+    color: #777;
+}
+
+/* Tambahan untuk tampilan yang lebih baik */
+.tugas-item .deadline {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.materi-item .file-type {
+    text-transform: uppercase;
+}
